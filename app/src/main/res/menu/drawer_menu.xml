@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report"
+            android:title="Records" />
+
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_account"
+            android:title="Profile" />
+
+        <item
+            android:id="@+id/nav_car"
+            android:icon="@drawable/ic_car"
+            android:title="My Cars" />
+
+        <item
+            android:id="@+id/nav_Refueling"
+            android:icon="@drawable/ic_local_gas_station"
+            android:title="Refueling" />
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_location"
+            android:title="Dealerships" />
+
+        <item
+            android:id="@+id/nav_garage"
+            android:icon="@drawable/ic_build"
+            android:title="Servicing" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_language"
+                android:icon="@drawable/ic_translate"
+                android:title="Languages" />
+
+            <group>
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/ic_about"
+                    android:title="About Us" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>

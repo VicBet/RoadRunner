@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <include
+        android:id="@+id/myrefuel"
+        layout="@layout/content_refuel" />
+
+    <TextView
+        android:id="@+id/txtRefuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Refuels"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/myvehicle"
+        layout="@layout/content_myvehicle" />
+
+    <TextView
+        android:id="@+id/txtVehicle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Cars"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+    <include
+        android:id="@+id/myservice"
+        layout="@layout/content_myservice" />
+
+    <TextView
+        android:id="@+id/txtService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Services"
+        android:textSize="30sp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        />
+
+
+</RelativeLayout>

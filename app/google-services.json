@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "426369021151",
+    "firebase_url": "https://roadrunner-6ffd6.firebaseio.com",
+    "project_id": "roadrunner-6ffd6",
+    "storage_bucket": "roadrunner-6ffd6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426369021151:android:60d838605f523086",
+        "android_client_info": {
+          "package_name": "com.roadrunner.android.roadrunner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426369021151-h3bui49oqfnkim876t7uaot8mc265fmg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roadrunner.android.roadrunner",
+            "certificate_hash": "998c01ceb51e74276e58cf3f6059cd79c5c1eeab"
+          }
+        },
+        {
+          "client_id": "426369021151-7do7v456e34gnets31tbpkj992veam5i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfIHpnhe_eDrnwDOI6lhNYHjj0BrIdT08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426369021151-7do7v456e34gnets31tbpkj992veam5i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
